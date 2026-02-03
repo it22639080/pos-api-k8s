@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: <dockerhub-username>/pos-api
+  repository: kavindu1w3/pos-api
   tag: latest
   pullPolicy: Always
 
