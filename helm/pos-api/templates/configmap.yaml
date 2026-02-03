@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pos-api-config
+data:
+  SERVER_PORT: "3000"
+  MONGO_URL: "mongodb://mongo-service:27017/posapi"
